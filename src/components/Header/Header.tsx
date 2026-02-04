@@ -4,8 +4,9 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import styles from './Header.module.scss';
 
-import { ThemeToggle } from '../ui/theme-toggle';
+
 import { MapPin, User, Search } from 'lucide-react';
+
 
 const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -31,7 +32,7 @@ const Header = () => {
     const navLinks = [
         { name: 'Watches', href: '/collections' },
         { name: 'Our World', href: '/our-world' },
-        { name: 'Stories', href: '#' },
+        { name: 'Stories', href: '/stories' },
         { name: 'Services', href: '#' },
     ];
 
@@ -63,7 +64,7 @@ const Header = () => {
                     <button className={styles.iconLink}>
                         <User className="w-5 h-5" strokeWidth={1.5} />
                     </button>
-                    <ThemeToggle />
+                    {/* Theme Toggle Removed */}
 
                     {/* Mobile Toggle Trigger */}
                     <div className={styles.mobileToggle} onClick={toggleMobileMenu}>
