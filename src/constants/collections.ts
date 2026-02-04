@@ -28,6 +28,13 @@ export const collections = [
         link: "/collections/010"
     },
     {
+        id: 6,
+        title: "011",
+        description: "Modern minimalism.",
+        image: "/images/watches/watch-011.png",
+        link: "/collections/011"
+    },
+    {
         id: 5,
         title: "Concept",
         description: "Avant-garde mechanics.",

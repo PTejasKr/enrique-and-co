@@ -77,6 +77,16 @@ export const watches = [
         material: 'Titanium',
         image: '/images/watches/watch-010.png',
         price: '$195,000'
+    },
+    // 011 Collection - Modern
+    {
+        id: 501,
+        collectionSlug: '011',
+        name: '011 Minimalist Noir',
+        reference: '15500ST.OO.1220ST.02',
+        material: 'Brushed Steel & Leather',
+        image: '/images/watches/watch-011.png',
+        price: '$22,400'
     }
 ];
 
