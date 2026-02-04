@@ -20,10 +20,10 @@
 .imageWrapper {
     position: relative;
     width: 100%;
-    aspect-ratio: 4/5;
+    aspect-ratio: 1/1;
     overflow: hidden;
     margin-bottom: 24px;
-    background-color: $color-steel-dark; // Placeholder background
+    background-color: $color-obsidian; // Match site background
 
     img {
         object-fit: cover;
