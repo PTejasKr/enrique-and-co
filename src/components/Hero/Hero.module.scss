@@ -47,7 +47,12 @@
     max-width: 900px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 20px;
+
+    @media (min-width: $breakpoint-tablet) {
+        padding: 0 60px; // Match header padding logic
+    }
+
     opacity: 0;
     transform: translateY(30px);
 }
@@ -65,14 +70,21 @@
 
 .title {
     font-family: $font-family-serif;
-    font-size: 64px; // Increased from 56px
+    font-size: 48px; // Decreased from 64px to prevent wrapping on smaller screens
     margin-bottom: 40px;
     line-height: 1.1;
     font-weight: 700;
-    letter-spacing: 0.1em; // Increased from 0.05em for premium feel
+    letter-spacing: 0.1em;
+    max-width: 100%; // Ensure it doesn't overflow
+    margin-left: auto;
+    margin-right: auto;
 
     @media (min-width: $breakpoint-tablet) {
-        font-size: 112px; // Increased from 96px
+        font-size: 80px; // Decreased from 112px to keep it on two lines comfortably
+    }
+
+    @media (min-width: 1200px) {
+        font-size: 100px; // Restore larger size on very wide screens
     }
 }
 

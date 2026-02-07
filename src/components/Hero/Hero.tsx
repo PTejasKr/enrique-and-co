@@ -26,7 +26,11 @@ const Hero = () => {
 
             <div className={styles.content} ref={contentRef}>
                 <span className={styles.subtitle}>Enrique Maison</span>
-                <h1 className={styles.title}>BEYOND TIME<br />BEYOND COMPROMISE</h1>
+                <h1 className={styles.title}>
+                    BEYOND TIME
+                    <br />
+                    BEYOND COMPROMISE
+                </h1>
                 <div className={styles.ctaContainer}>
                     <Button variant="outline" href="/collections" isDarkOutline={false}>
                         Discover the Collections

@@ -1,0 +1,14 @@
+@import '../../styles/variables';
+
+.main {
+    background-color: $color-obsidian;
+    min-height: 100vh;
+    padding-top: 100px; // Add padding to account for fixed header
+    padding-bottom: 50px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

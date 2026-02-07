@@ -29,6 +29,13 @@
     align-items: center;
     position: relative;
     height: 40px;
+    width: 100%;
+    max-width: 100%; // Override global container max-width
+    padding: 0 40px; // Match Hero padding
+
+    @media (min-width: $breakpoint-tablet) {
+        padding: 0 60px; // More breathing room on desktop
+    }
 }
 
 // Left Navigation

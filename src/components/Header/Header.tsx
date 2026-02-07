@@ -34,6 +34,7 @@ const Header = () => {
     const navLinks = [
         { name: 'Watches', href: '/collections' },
         { name: 'Our World', href: '/our-world' },
+        { name: 'Customer Persona', href: '/customer-persona' },
         { name: 'Stories', href: '/stories' },
         { name: 'Services', href: '#' },
     ];
